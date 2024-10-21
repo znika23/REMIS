@@ -1,0 +1,38 @@
+{
+    "alg": {
+      "seed": 1428,
+      "expert": 8,
+      "buffer_size": 12000,
+      "task_batch": 20,
+      "relax-k": 4,
+      "learning_rate": 1e-4,
+      "reward_decay": 0.9,
+      "epsilon_decay": 0.01,
+      "episode": 100000,
+      "batch": 64,
+      "n1_feature": 32,
+      "n2_feature": 16,
+      "device": "cpu"
+    },
+    "map": {
+      "map_size": 100.0,
+      "layer": 10,
+      "expert": 8,
+      "server_per_layer": 4
+    },
+    "edge": {
+      "reliability": [0.0, 0.0, 0.2, 0.2],
+      "AI_power": [2660000],
+      "hid_dim": 14336,
+      "ffn_dim": 4096,
+      "activation": 4,
+      "bandwidth": 10,
+      "epsilon": 32,
+      "res_reward": 1500,
+      "layer": 10,
+      "experts": 8,
+      "server_per_layer": 4,
+      "relax-k": 4,
+      "epsilon_decay": 0.01
+    }
+}
